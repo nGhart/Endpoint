@@ -1,0 +1,82 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(285deg, rgba(2,0,36,1) 0%, rgba(124,74,155,1) 35%, rgba(30,69,175,1) 100%);
+color: white;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+.navbar{
+  margin-bottom: 10px;
+}
+.orderPage{
+  padding-top: 80px;
+}
+.nav{
+  background-color: rgb(84, 84, 219) !important;
+}
+.nav h2{
+  color:white !important;
+}
+.formInputs{
+  display: flex;
+}
+.addInput{
+  padding: 5px;
+}
+.addButton{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.landingContainer{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.266);
+  
+  border-radius: 25px;
+  padding:30px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 50px;
+  }
+  .loginContainer{
+    text-align:center;
+    background-color: rgba(15, 1, 1, 0.266);
+    padding:20px;
+    border-radius: 25px;
+  }
+  .landingContainer h2{
+    margin-bottom: 50px;
+  }
+  .landingContainer h5{
+    margin-bottom: 50px;
+  }

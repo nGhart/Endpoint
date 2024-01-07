@@ -1,0 +1,41 @@
+// import './App.css'
+// import axios from 'axios'
+
+
+// function App() {
+//   const handleMessage=()=>{
+//     const headers = {
+//       'Content-Type': 'application/json',
+//               'Authorization': `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`
+//       }
+// axios.post("http://localhost:5000/api/v1/sendMessage",{headers}).then((res)=>console.log(res.data)).catch((error)=>console.log(error))
+
+//   }
+//   const handleSubmit=(e)=>{
+//     e.preventDefault()
+//     const headers = {
+//       'Content-Type': 'application/json',
+//               'Authorization': `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`
+//       }
+// axios.post("http://localhost:5000/api/v1/sendMessage",{headers}).then((res)=>console.log(res.data)).catch((error)=>console.log(error))
+
+//   }
+
+//   return (
+//     <div>
+      
+//       <div className="hero">
+//         <div className="centerText">
+//           Welcome to our Page we 
+//         </div>
+//       </div>
+
+//       <form action="" onSubmit={handleSubmit}>
+//         <input type="submit" value="submit"/>
+//       </form> 
+//       {/* <button onClick={handleMessage}> Send Message</button> */}
+//     </div>
+//   )
+// }
+
+// export default App
